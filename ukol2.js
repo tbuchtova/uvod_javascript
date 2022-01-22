@@ -1,6 +1,6 @@
 let jmeno = prompt('Jak se jmenuješ?');
 let vek = Number(prompt('Kolik Ti je let?'));
-let rozdil = Number(18 - vek);
+let rozdil = (18 - vek);
 
 let hlaskaPlnolety =
   'Jmenuješ se ' + jmeno + ' a je Ti ' + vek + ' let, takže můžeš řídit auto.';
