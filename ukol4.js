@@ -1,10 +1,3 @@
-/*function helloWorld() {
-  return 5;
-}
-
-console.log(helloWorld());
-*/
-
 function soucet(x, y) {
   return x + y;
 }
