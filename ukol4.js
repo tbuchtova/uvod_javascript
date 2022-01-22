@@ -5,9 +5,6 @@
 console.log(helloWorld());
 */
 
-let a = Number(prompt('Zadej první číslo:'));
-let b = Number(prompt('Zadej druhé číslo:'));
-
 function soucet(x, y) {
   return x + y;
 }
@@ -24,11 +21,14 @@ function podil(x, y) {
   return x / y;
 }
 
-function fsechno(a, b) {
-  console.log('Součet je: ' + soucet(a, b));
-  console.log('Rozdíl je: ' + rozdil(a, b));
-  console.log('Násobek je: ' + nasobek(a, b));
-  console.log('Podíl je: ' + podil(a, b));
+function fsechno(x, y) {
+  console.log('Součet je: ' + soucet(x, y));
+  console.log('Rozdíl je: ' + rozdil(x, y));
+  console.log('Násobek je: ' + nasobek(x, y));
+  console.log('Podíl je: ' + podil(x, y));
 }
 
-fsechno(a, b);
+let prvni = Number(prompt('Zadej první číslo:'));
+let druhy = Number(prompt('Zadej druhé číslo:'));
+
+fsechno(prvni, druhy);
